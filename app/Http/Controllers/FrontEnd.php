@@ -80,6 +80,7 @@ class FrontEnd extends Controller
 {
     public function index()
     {
+        print_r(agendas::all());
         return view('index');
     }
     public function cadastro()
@@ -98,7 +99,6 @@ class FrontEnd extends Controller
     public function adm()
     {
         echo "teste";
-        print_r(agendas::all());
         session(['nome' => 'adm']);
         session(['telefone' => '+55 64 999825864']);
         session(['ano' => intVal(date('Y'))]);
