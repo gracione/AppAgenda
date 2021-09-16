@@ -16,6 +16,7 @@
 <body class="d-flex justify-content-center col" >
     <div id="paginaLogin" class="col-md-4 col-11">
         <div class="row m-0 mb-2 mt-5 " >
+            <h2>Studio</h2>
             <img class="w-100" src="https://blog.agenciadosite.com.br/wp-content/uploads/2017/02/logo-mancini-e1486727339396.jpg" alt="">
         </div>
         <form class="row m-0  alert alert-primary" action="{{ route('logar') }}" method="post">
