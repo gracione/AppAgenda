@@ -19,7 +19,7 @@
             <h2>Studio</h2>
             <img class="w-100" src="https://blog.agenciadosite.com.br/wp-content/uploads/2017/02/logo-mancini-e1486727339396.jpg" alt="">
         </div>
-        <form class="row m-0  alert alert-primary" action="{{ route('logar') }}" method="post">
+        <form class="row m-0  alert alert-primary" action="{{ csrf_field(route('logar')) }}" method="post">
             @csrf
             <label class="h3 container">Login</label>
             <input class="form-control" type="text" name="email" placeholder="Telefone" required >
