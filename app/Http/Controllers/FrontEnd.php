@@ -97,15 +97,6 @@ class FrontEnd extends Controller
     }
     public function adm()
     {
-        session(['nome' => 'adm']);
-        session(['telefone' => '+55 64 999825864']);
-        session(['ano' => intVal(date('Y'))]);
-        session(['mes' => intVal(date('m'))]);
-        session(['mesInvisivel' => 0]);
-        session(['funcionarios' => funcionarios::all()]);
-        session(['agendas' => agendas::all()]);
-        session(['tratamentos' => tratamentos::all()]);
-        return view('adm');
     }
     public function calendar(Request $req)
     {
