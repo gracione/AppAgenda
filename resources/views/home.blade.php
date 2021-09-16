@@ -79,7 +79,7 @@ function formatoHorario($data){
 <body>
     <nav class="text-white navbar navbar-expand-md navbar-primary alert rosa">
             <a class="text-white w-50 nav-link navbar-brand" style="font-style: italic;" href="{{ route('inicial') }}">
-                Estudio Hair alize
+                 Studio de beleza Elegance
             </a>
             <button class="col-2 navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <img width="80%" src="https://image.flaticon.com/icons/png/512/55/55003.png" alt="">
