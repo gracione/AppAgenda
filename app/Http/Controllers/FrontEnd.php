@@ -80,6 +80,7 @@ class FrontEnd extends Controller
 {
     public function index()
     {
+        print("teste");
         print_r(agendas::all());
         return view('index');
     }
